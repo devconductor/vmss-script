@@ -143,6 +143,3 @@ rm -rf splunkforwarder-7.2.3-06d57c595b80-Linux-x86_64.tgz
 /opt/splunkforwarder/bin/splunk clone-prep-clear-config
 /opt/splunkforwarder/bin/splunk set deploy-poll $SPLUNK_ADDRESS  --accept-license --answer-yes --auto-ports --no-prompt  -auth $SPLUNK_AUTH
 /opt/splunkforwarder/bin/splunk start --accept-license --answer-yes --auto-ports --no-prompt
-
-
-
