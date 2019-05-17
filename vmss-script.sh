@@ -7,7 +7,7 @@
 # Adicao de instalação de agent splunk para monitoramento
 
 # Variable Setup
-AGENT_VERSION="v1.2.11"
+AGENT_VERSION="v1.2.5"
 LOCAL_IP=`ip route get 1.1.1.1 | grep -oP 'src \K\S+'`
 STATUS=255
 SLEEP=5
